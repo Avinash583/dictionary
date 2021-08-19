@@ -1,0 +1,24 @@
+>>> data={'montu':'english','mundal':'maths','Avi':'physics'}
+>>> data
+{'montu': 'english', 'mundal': 'maths', 'Avi': 'physics'}
+]
+>>> data.keys()
+dict_keys(['montu', 'mundal', 'Avi'])
+>>> data.values()
+dict_values(['english', 'maths', 'physics'])
+>>> data.get('Avi')
+'physics'
+>>> data['Avi']
+'physics'
+>>> data['adeel']='chemistry'
+>>> data
+{'montu': 'english', 'mundal': 'maths', 'Avi': 'physics', 'adeel': 'chemistry'}
+>>> del data['montu']
+>>> data
+{'mundal': 'maths', 'Avi': 'physics', 'adeel': 'chemistry'}
+>>> nums=[1,2,4,6]
+>>> dent=['suja','guthi','tom','muna']
+>>> rom=dict(zip(nums,dent))
+>>> rom
+{1: 'suja', 2: 'guthi', 4: 'tom', 6: 'muna'}
+
